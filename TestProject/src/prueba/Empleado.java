@@ -4,14 +4,14 @@ import java.time.LocalDate;
 
 public class Empleado {
 
-	private String mombre;
+	private String nombre;
 	private String apellido;
 	private LocalDate fechaNac;
-	public String getMombre() {
-		return mombre;
+	public String getNombre() {
+		return nombre;
 	}
-	public void setMombre(String mombre) {
-		this.mombre = mombre;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 	public String getApellido() {
 		return apellido;
@@ -25,9 +25,9 @@ public class Empleado {
 	public void setFechaNac(LocalDate fechaNac) {
 		this.fechaNac = fechaNac;
 	}
-	public Empleado(String mombre, String apellido, LocalDate fechaNac) {
+	public Empleado(String nombre, String apellido, LocalDate fechaNac) {
 		super();
-		this.mombre = mombre;
+		this.nombre = nombre;
 		this.apellido = apellido;
 		this.fechaNac = fechaNac;
 	}
